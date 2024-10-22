@@ -3,6 +3,14 @@ Custom Chatbot Using Langchain: Assignment from Triluxo Technologies Private Lim
 
 This project demonstrates how to create a custom chatbot that extracts course data from a website, generates embeddings for the course descriptions, and provides a Flask RESTful API for user interaction. The chatbot is built using [Langchain](https://langchain.readthedocs.io/) and [Sentence Transformers](https://www.sbert.net/).
 
+## Table of Contents
+- [Features](#features)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- 
 ## Features
 - Extracts course titles, descriptions, and prices from [Brainlox](https://brainlox.com/courses/category/technical).
 - Generates embeddings for course descriptions using the Sentence Transformer model.
@@ -16,3 +24,13 @@ This project demonstrates how to create a custom chatbot that extracts course da
 - BeautifulSoup4
 - Sentence Transformers
 - FAISS (Facebook AI Similarity Search)
+
+## Usage
+- Run the Jupyter Notebook:
+Open the Jupyter Notebook file Chatbot.ipynb in your preferred environment (e.g., Jupyter Notebook, Google Colab) and execute the cells to set up and run the chatbot.
+- Run the Python script:
+Alternatively, you can run the chatbot.py file directly in your terminal:
+bash
+
+## Make a POST request to the API:
+- You can test the chatbot API using curl or tools like Postman
