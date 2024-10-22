@@ -31,7 +31,7 @@ This project demonstrates how to create a custom chatbot that extracts course da
 - Make a POST request to the API: You can test the chatbot API using curl or tools like Postman
 
 ## File Structure
-/repository-name
+/Custom-Chatbot-Using-Langchain
 │
 ├── Chatbot.ipynb         # Jupyter Notebook with the implementation
 ├── chatbot.py            # Python script for the chatbot
